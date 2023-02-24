@@ -1,0 +1,36 @@
+.img1 {
+    opacity:0.5;
+    transition: 1s ease;
+    }
+    
+.img1:hover{
+    opacity:2;
+    transition: 0.5s ease;
+    }
+    .ii1{
+        font-size: 40px;
+  font-weight: 600;
+  
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb);
+    }
+    .ii2{
+        font-size: 30px;
+        font-weight: 600;
+        background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+    .ii3{
+        font-size: 25px;
+        font-weight: 600;
+        background-image: conic-gradient(
+            #553c9a 0%, #553c9a 33%, #ee4b2b 33%, #ee4b2b 66%, hsl(180, 50%, 1%) 66%, #00c2cb 99%
+          );
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
